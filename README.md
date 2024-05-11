@@ -1,3 +1,3 @@
 check this pages
 
-https://ridwanyoku.git.io
+https://ridwanyoku.github.io
