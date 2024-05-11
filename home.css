@@ -21,6 +21,7 @@ body{
 }
 
 .desc{
+    border: solid white 2px;
     padding: 10vh;
 }
 
@@ -65,4 +66,5 @@ color: rgb(125, 255, 255);
     color: rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
+    border: solid white 2px;
 }
