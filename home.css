@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.greet {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 20vh;
+}
+
+.greet span {
+    animation: glow 1.5s ease-in-out infinite;
+
+}
+
+.desc{
+    padding: 10vh;
+}
+
+@keyframes glow{
+    0%, 100%{
+        background-color: blur white 10px;
+color: rgb(125, 255, 255);
+    }
+
+    90%, 10%{
+        color: rgb(21, 23, 31);
+    }
+}
+
+.greet span:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.greet span:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+.greet span:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.greet span:nth-child(5){
+    animation-delay: 0.8s;
+}
+.greet span:nth-child(6){
+    animation-delay: 1s;
+}
+
+.aT{
+  text-align: center;
+    display: flex;
+    background-color: rgba(49, 138, 179, 0.738);
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px;
+}
