@@ -12,7 +12,7 @@ body{
 .greet {
     font-size: 3rem;
     font-weight: 700;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .greet span {
@@ -58,7 +58,7 @@ color: rgb(125, 255, 255);
   text-align: center;
     display: flex;
     background-color: rgba(49, 138, 179, 0.738);
-    height: 70px;
+    height: 60px;
     width: 100px;
     border-radius: 10px;
     text-decoration: none;
